@@ -10,9 +10,7 @@ st.set_page_config(page_title="Detector de enfermedades de cacao", page_icon="�
 st.title("🌿 Detector de enfermedades de cacao basado en un modelo YOLO")
 st.markdown(
     "Sube una imagen de una planta/mazorcas de cacao y el modelo detectará objetos y te mostrará un reporte.\n\n"
-    "**Nota:** si usas el modelo por defecto `yolov11m.pt`, mostrará clases COCO. "
-    "Para ver *healthy/monilia/fitofthora*, usa tu peso entrenado (`last.pt` o `best.pt`)."
-)
+    )
 
 # ===================== Parámetros del modelo =====================
 DEFAULT_MODEL = "models/best.pt"   # cambia a "models/best.pt" si quieres
