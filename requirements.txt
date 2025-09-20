@@ -4,6 +4,7 @@ opencv-python-headless==4.9.0.80
 numpy>=1.26
 pillow>=10.3
 requests>=2.31
-# onnxruntime>=1.18.0  # ← descomenta si en el futuro usas modelos .onnx
+pandas>=2.0
+openai>=1.30.0
 
 
