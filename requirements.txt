@@ -1,0 +1,8 @@
+streamlit>=1.36
+ultralytics==8.3.202
+opencv-python-headless==4.9.0.80
+numpy>=1.26
+pillow>=10.3
+requests>=2.31
+# onnxruntime>=1.18.0  # ⇐ descomenta si vas a usar .onnx
+
