@@ -15,8 +15,8 @@ st.markdown(
 )
 
 # ===================== Parámetros del modelo =====================
-DEFAULT_MODEL = "models/last.pt"   # cambia a "models/best.pt" si quieres
-MODEL_URL = "https://github.com/jorgedelgado13/Examen-Final/releases/download/v1.0/last.pt"
+DEFAULT_MODEL = "models/best.pt"   # cambia a "models/best.pt" si quieres
+MODEL_URL = "https://github.com/jorgedelgado13/Examen-Final/releases/download/v2.0/best.pt"
 CLASSES_JSON = "models/classes.json"  # {"0":"healthy_cob","1":"monilia_cob","2":"fitofthora_cob"}
 
 @st.cache_resource
