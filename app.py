@@ -7,7 +7,7 @@ from PIL import Image
 DEFAULT_MODEL = "models/last.pt"
 
 # URL directa del asset en tu Release público (reemplaza con la tuya)
-MODEL_URL = "https://github.com/<TU_USUARIO>/<TU_REPO>/releases/download/v1.0/last.pt"
+MODEL_URL = "https://github.com/jorgedelgado13/Examen-Final/releases/download/v1.0/last.pt"
 
 @st.cache_resource
 def load_model(path: str):
