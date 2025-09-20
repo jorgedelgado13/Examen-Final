@@ -54,7 +54,7 @@ if not NAMES or not isinstance(NAMES, dict) or len(NAMES) == 0:
 with st.sidebar:
     st.header("⚙️ Parámetros")
     conf  = st.slider("Confianza (conf)", 0.05, 0.90, 0.25, 0.05)
-    iou   = st.slider("IoU", 0.30, 0.90, 0.60, 0.05)
+    iou   = st.slider("Superposición", 0.30, 0.90, 0.60, 0.05)
     imgsz = st.slider("Tamaño de entrada (imgsz)", 320, 1280, 640, 64,
                       help="El modelo reducirá/ajustará internamente la imagen a este tamaño.")
 
